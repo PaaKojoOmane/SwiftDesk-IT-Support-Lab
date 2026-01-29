@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🧩 SwiftDesk IT Support Lab
+# ⧉ SwiftDesk IT Support Lab
 
 ### A hands-on enterprise-style IT Support portfolio  
 designed to replicate **real-world service desk and junior systems administration work**.
@@ -54,7 +54,7 @@ This project demonstrates how Windows enterprise environments are **planned, bui
 
 ---
 
-## 🧠 Skills Demonstrated (Mapped to Project Phases)
+## ⌂ Skills Demonstrated (Mapped to Project Phases)
 
 - **Virtualisation & Networking (Phase 1)**  
   Built an isolated lab environment using VMware Workstation with Host-Only networking (VMnet2), applying foundational IP addressing and connectivity concepts.
@@ -124,21 +124,18 @@ This project demonstrates how Windows enterprise environments are **planned, bui
 
 ## 🗂️ Evidence & Screenshots
 
-All evidence screenshots are organised by phase to keep documentation clear, minimal, and easy to review.
+| Folder | Purpose |
+|---|---|
+| assets/screenshots/phase-1 | VMware & network configuration |
+| assets/screenshots/phase-2 | Domain controller setup |
+| assets/screenshots/phase-3 | Client build & preparation |
+| assets/screenshots/phase-4 | Domain join verification |
+| assets/screenshots/phase-5 | Users, groups & OU structure |
+| assets/screenshots/phase-6 | File sharing & NTFS permissions |
+| assets/screenshots/phase-7 | Departmental Group Policy |
+| assets/screenshots/phase-8 | Troubleshooting evidence |
+| assets/screenshots/phase-9 | Imaging & deployment |
 
-```text
-assets/
-└── screenshots/
-    ├── phase-1/   # VMware & network configuration
-    ├── phase-2/   # Domain controller setup (AD DS + DNS)
-    ├── phase-3/   # Client build & preparation
-    ├── phase-4/   # Domain join & verification
-    ├── phase-5/   # Users, groups & OU structure
-    ├── phase-6/   # File sharing & NTFS permissions
-    ├── phase-7/   # Departmental Group Policy
-    ├── phase-8/   # Troubleshooting evidence
-    └── phase-9/   # Imaging & deployment (learning phase)
-```
 
-##  🎯 Outcome 
+ ## 📌 Outcome
 This project serves as a **job-ready IT Support portfolio**, demonstrating the ability to build, support, secure, and document a Windows enterprise environment. It reflects how IT Support professionals work in practice: planning configurations, validating access, troubleshooting issues, and documenting decisions clearly for future reference and handover. The lab and documentation are suitable as supporting evidence for **IT Support, Desktop Support, and Junior Systems Administrator roles**.
