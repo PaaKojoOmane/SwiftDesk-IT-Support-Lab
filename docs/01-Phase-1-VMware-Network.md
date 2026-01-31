@@ -1,4 +1,4 @@
-# Phase 1 – Virtualisation & Network Setup
+ # Phase 1 – Virtualisation & Network Setup
 
 This phase establishes the virtual environment used for the entire lab. A stable and isolated virtual network is critical, as all domain services, clients, and validation depend on reliable connectivity.
 
@@ -24,6 +24,7 @@ No servers or clients are deployed at this stage. The focus is on **infrastructu
 - **Network type:** Host-Only  
 - **Custom network:** VMnet2  
 - **IP range:** 10.88.0.0/24  
+- **DHCP:** Disabled  
 
 ---
 
@@ -33,20 +34,20 @@ A **Host-Only** network was chosen for this lab instead of NAT or Bridged networ
 
 This decision was made to:
 
-- Keep the lab isolated from the home or corporate network  
-- Avoid DHCP conflicts with external networks  
-- Simulate an internal business LAN with no internet dependency  
+- Keep the lab isolated from the host and external networks  
+- Avoid unintended internet access or external DHCP interference  
+- Simulate an internal business LAN where services are fully controlled  
 
-This mirrors how internal enterprise environments are often segmented from external networks.
+Disabling DHCP ensures predictable addressing and avoids conflicts when Active Directory and DNS are introduced in later phases.
 
 ---
 
 ## Configuration Steps (High Level)
 
-1. VMware Workstation was installed and verified  
-2. A custom Host-Only network (VMnet2) was created using the Virtual Network Editor  
-3. VMnet2 was configured with the 10.88.0.0/24 address range  
-4. DHCP was left enabled for flexibility during early testing  
+1. VMware Workstation was installed and verified on the host system  
+2. A custom Host-Only network (**VMnet2**) was created using the Virtual Network Editor  
+3. VMnet2 was configured with the `10.88.0.0/24` subnet  
+4. DHCP was explicitly disabled to allow controlled IP assignment  
 
 No virtual machines were created during this phase.
 
@@ -57,7 +58,7 @@ No virtual machines were created during this phase.
 The following checks confirmed the setup was successful:
 
 - VMnet2 appeared as an available network option in VMware  
-- The host machine received an IP address in the 10.88.0.0/24 range  
+- The VMware Network Adapter VMnet2 was present and enabled on the host  
 - VMware networking services were running correctly  
 
 This confirmed the virtual network was ready to support server and client builds.
@@ -72,7 +73,7 @@ Only key evidence screenshots are included for this phase:
 - Virtual Network Editor showing VMnet2 configuration  
 - Host network adapter showing the VMnet2 interface  
 
-(Stored under [assets/screenshots/phase-1](../assets/screenshots/phase-1/))
+(Screenshots are stored under: [assets/screenshots/phase-1](../assets/screenshots/phase-1/))
 
 ---
 
