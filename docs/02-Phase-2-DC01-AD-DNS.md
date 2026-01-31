@@ -41,7 +41,7 @@ Hardware resources were allocated to reflect a realistic small-enterprise enviro
 
 **Evidence:**
 
-![SD-DC01 Hardware Configuration](../assets/screenshots/phase-2/P2_01_SD-DC01_Hardware.png)
+![SD-DC01 Hardware Configuration](../assets/screenshots/phase-2/P2_01_SD-DC01_Hardware.PNG)
 
 ---
 
@@ -53,7 +53,7 @@ This ensures the domain controller operates within an isolated internal LAN and 
 
 **Evidence:**
 
-![SD-DC01 Network Adapter](../assets/screenshots/phase-2/P2_02_SD-DC01_Network_Adapter.png)
+![SD-DC01 Network Adapter](../assets/screenshots/phase-2/P2_02_SD-DC01_Network_Adapter.PNG)
 
 ---
 
@@ -68,7 +68,7 @@ Post-installation validation confirmed:
 
 **Evidence:**
 
-![Windows Server Installed](../assets/screenshots/phase-2/P2_03_Windows_Server_Installed.png)
+![Windows Server Installed](../assets/screenshots/phase-2/P2_03_Windows_Server_Installed.PNG)
 
 ---
 
@@ -86,7 +86,7 @@ This configuration ensures the server can later host DNS services for the Active
 
 **Evidence:**
 
-![Static IP Configuration](../assets/screenshots/phase-2/P2_04_SD-DC01_StaticIP.png)
+![Static IP Configuration](../assets/screenshots/phase-2/P2_04_SD-DC01_StaticIP.PNG)
 
 ---
 
