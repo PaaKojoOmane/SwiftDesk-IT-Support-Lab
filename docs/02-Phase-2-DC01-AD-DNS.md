@@ -41,7 +41,7 @@ Hardware resources were allocated to reflect a realistic small-enterprise enviro
 
 **Evidence:**
 
-![SD-DC01 Hardware Configuration](../assets/screenshots/phase-2/P2_01_SD-DC01_Hardware.PNG)
+![SD-DC01 Hardware Configuration](../assets/screenshots/phase-2/P2_01_SD-DC01_Hardware.png)
 
 ---
 
