@@ -73,7 +73,7 @@ Only key evidence screenshots are included for this phase:
 - Virtual Network Editor showing VMnet2 configuration  
 - Host network adapter showing the VMnet2 interface  
 
-(Screenshots are stored under: [assets/screenshots/phase-1](../assets/screenshots/phase-1/))
+Screenshots are stored under: [assets/screenshots/phase-1](../assets/screenshots/phase-1/)
 
 ---
 

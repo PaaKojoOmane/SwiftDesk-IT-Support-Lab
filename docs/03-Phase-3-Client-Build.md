@@ -115,8 +115,7 @@ Only key evidence screenshots are included for this phase:
 - Windows 10 installation
 - Computer name configuration
 
-(Screenshots are stored under:  
-[assets/screenshots/phase-3](../assets/screenshots/phase-3/))
+Screenshots are stored under: [assets/screenshots/phase-3](../assets/screenshots/phase-3/)
 
 ---
 

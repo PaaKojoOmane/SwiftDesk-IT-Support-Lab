@@ -110,8 +110,7 @@ Only key evidence screenshots are included for this phase:
 - Successful Windows Server installation  
 - Static IP configuration on the server  
 
-(Screenshots are stored under:  
-[assets/screenshots/phase-2](../assets/screenshots/phase-2/))
+Screenshots are stored under: [assets/screenshots/phase-2](../assets/screenshots/phase-2/)
 
 ---
 
